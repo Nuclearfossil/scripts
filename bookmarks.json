@@ -1,0 +1,1828 @@
+[
+    {
+        "name": "Chrome (Default) - Bookmark Bar",
+        "type": "folder",
+        "children": [
+            {
+                "name": "Keyboards",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "Keychron Launcher",
+                        "type": "url",
+                        "url": "https://launcher.keychron.com/#/keymap"
+                    },
+                    {
+                        "name": "RK Web App",
+                        "type": "url",
+                        "url": "https://drive.rkgaming.com/"
+                    }
+                ]
+            },
+            {
+                "name": "Graphics Programming",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "Introduction - 3D Math Primer for Graphics and Game Development",
+                        "type": "url",
+                        "url": "https://gamemath.com/book/intro.html"
+                    },
+                    {
+                        "name": "Rust + DX12",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "Hudhook \u2014 Rust gfx library // Lib.rs",
+                                "type": "url",
+                                "url": "https://lib.rs/crates/hudhook"
+                            },
+                            {
+                                "name": "Shroud \u2014 Rust gfx library // Lib.rs",
+                                "type": "url",
+                                "url": "https://lib.rs/crates/shroud"
+                            },
+                            {
+                                "name": "Kiss3d \u2014 Rust gfx library // Lib.rs",
+                                "type": "url",
+                                "url": "https://lib.rs/crates/kiss3d"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "DirectX",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "Hope you can recommend me some good tutorials for beginners. \u00b7 Issue #103 \u00b7 microsoft/DirectX-Graphics-Samples",
+                                "type": "url",
+                                "url": "https://github.com/Microsoft/DirectX-Graphics-Samples/issues/103"
+                            },
+                            {
+                                "name": "Getting Started \u00b7 microsoft/DirectXTK Wiki \u00b7 GitHub",
+                                "type": "url",
+                                "url": "https://github.com/microsoft/DirectXTK/wiki/Getting-Started"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vulkan",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "Instance - Vulkan Tutorial",
+                                "type": "url",
+                                "url": "https://vulkan-tutorial.com/Drawing_a_triangle/Setup/Instance"
+                            },
+                            {
+                                "name": "Vulkan in 30 minutes",
+                                "type": "url",
+                                "url": "https://renderdoc.org/vulkan-in-30-minutes.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "OpenGL",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "mortennobel/SimpleRenderEngine: Small C++14 render engine",
+                                "type": "url",
+                                "url": "https://github.com/mortennobel/SimpleRenderEngine"
+                            },
+                            {
+                                "name": "JulianThijssen/Flux: A real-time physically based rendering engine written in C++ and OpenGL",
+                                "type": "url",
+                                "url": "https://github.com/JulianThijssen/Flux"
+                            },
+                            {
+                                "name": "yushroom/FishEngine: Simple, Unity-like Game Engine.",
+                                "type": "url",
+                                "url": "https://github.com/yushroom/FishEngine"
+                            },
+                            {
+                                "name": "JoshuaSenouf/GLEngine: Rendering Engine using C++ and OpenGL",
+                                "type": "url",
+                                "url": "https://github.com/JoshuaSenouf/GLEngine"
+                            },
+                            {
+                                "name": "ddiakopoulos/sandbox: sandbox of experimental & reusable code in C++11 & modern openGL",
+                                "type": "url",
+                                "url": "https://github.com/ddiakopoulos/sandbox"
+                            },
+                            {
+                                "name": "debug-draw/samples at master \u00b7 glampert/debug-draw",
+                                "type": "url",
+                                "url": "https://github.com/glampert/debug-draw/tree/master/samples"
+                            },
+                            {
+                                "name": "ddiakopoulos/tinygizmo: An immediate mode 3D gimzo (translation, rotation, scale for scene editing) in ~1200 LoC",
+                                "type": "url",
+                                "url": "https://github.com/ddiakopoulos/tinygizmo"
+                            },
+                            {
+                                "name": "DiligentGraphics/DiligentEngine: Master repository for Diligent Engine project",
+                                "type": "url",
+                                "url": "https://github.com/DiligentGraphics/DiligentEngine"
+                            },
+                            {
+                                "name": "JoeyDeVries/Cell: OpenGL C++ Graphics Engine",
+                                "type": "url",
+                                "url": "https://github.com/JoeyDeVries/Cell"
+                            },
+                            {
+                                "name": "Nadrin/PBR: An implementation of physically based shading model & image based lighting in various graphics APIs.",
+                                "type": "url",
+                                "url": "https://github.com/Nadrin/PBR"
+                            },
+                            {
+                                "name": "LukasBanana/LLGL: Low Level Graphics Library (LLGL) is a thin abstraction layer for the modern graphics APIs OpenGL, Direct3D, Vulkan, and Metal",
+                                "type": "url",
+                                "url": "https://github.com/LukasBanana/LLGL"
+                            },
+                            {
+                                "name": "mosra/magnum-examples: Examples for the Magnum C++11/C++14 graphics engine",
+                                "type": "url",
+                                "url": "https://github.com/mosra/magnum-examples"
+                            },
+                            {
+                                "name": "mosra/magnum: Lightweight and modular C++11/C++14 graphics middleware for games and data visualization",
+                                "type": "url",
+                                "url": "https://github.com/mosra/magnum"
+                            },
+                            {
+                                "name": "hugoam/kiui: Auto-layout Ui library, lightweight, skinnable and system agnostic, with an OpenGL backend",
+                                "type": "url",
+                                "url": "https://github.com/hugoam/kiui"
+                            },
+                            {
+                                "name": "1kingja/graphics: Code for my OpenGL graphics on YouTube",
+                                "type": "url",
+                                "url": "https://github.com/1kingja/graphics"
+                            },
+                            {
+                                "name": "RippeR37/GLUL: OpenGL Utility Library.",
+                                "type": "url",
+                                "url": "https://github.com/RippeR37/GLUL"
+                            },
+                            {
+                                "name": "DanWatkins/Terrain3D: Interactive 3D terrain simulation using OpenGL 4 and Qt 5.",
+                                "type": "url",
+                                "url": "https://github.com/DanWatkins/Terrain3D"
+                            },
+                            {
+                                "name": "iondune/ionEngine: 3D graphics engine designed for rapid prototyping and extensibility",
+                                "type": "url",
+                                "url": "https://github.com/iondune/ionEngine"
+                            },
+                            {
+                                "name": "cmaughan/zep: Zep - An embeddable editor, with optional support for using vim keystrokes.",
+                                "type": "url",
+                                "url": "https://github.com/cmaughan/zep"
+                            },
+                            {
+                                "name": "hmazhar/moderngl_camera: A quaternion based camera for modern OpenGL",
+                                "type": "url",
+                                "url": "https://github.com/hmazhar/moderngl_camera"
+                            },
+                            {
+                                "name": "subokita/Arcball: Sample simple arcball trackball for OpenGL 4 in C++",
+                                "type": "url",
+                                "url": "https://github.com/subokita/Arcball"
+                            },
+                            {
+                                "name": "64/vin: Cross platform OpenGL-based text editor written in C++",
+                                "type": "url",
+                                "url": "https://github.com/64/vin"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Graphics Tool libs",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "tinyply/source/example.cpp at master \u00b7 ddiakopoulos/tinyply \u00b7 GitHub",
+                                "type": "url",
+                                "url": "https://github.com/ddiakopoulos/tinyply/blob/master/source/example.cpp"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Leidon Labs",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "Accounts Overview",
+                        "type": "url",
+                        "url": "https://easyweb.td.com/ui/ew/fs?fsType=PFS&kyc=Y"
+                    }
+                ]
+            },
+            {
+                "name": "Prime Video: TV Shows",
+                "type": "url",
+                "url": "https://www.primevideo.com/storefront/tv/ref=atv_nb_sf_tv"
+            },
+            {
+                "name": "Browse :: Nyaa",
+                "type": "url",
+                "url": "https://nyaa.si/?f=0&c=1_0&q="
+            }
+        ]
+    },
+    {
+        "name": "Chrome (Default) - Other",
+        "type": "folder",
+        "children": [
+            {
+                "name": "GitHub - danistefanovic/build-your-own-x: \ud83e\udd13 Build your own (insert technology here)",
+                "type": "url",
+                "url": "https://github.com/danistefanovic/build-your-own-x#build-your-own-3d-renderer"
+            },
+            {
+                "name": "Firmware \u2013 Keychron | Mechanical Keyboards for Mac, Windows and Android",
+                "type": "url",
+                "url": "https://www.keychron.com/pages/firmware"
+            }
+        ]
+    },
+    {
+        "name": "Chrome (Default) - Synced",
+        "type": "folder",
+        "children": [
+            {
+                "name": "Chrome River",
+                "type": "url",
+                "url": "https://app.ca1.chromeriver.com/index"
+            },
+            {
+                "name": "Sickness - 16 | Life of Ren and a werewolf",
+                "type": "url",
+                "url": "https://www.webtoons.com/en/canvas/life-of-ren-and-a-werewolf/sickness/viewer?title_no=988982&episode_no=16"
+            }
+        ]
+    },
+    {
+        "name": "Edge (Default) - Bookmark Bar",
+        "type": "folder",
+        "children": [
+            {
+                "name": "Streaming",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "Home - Netflix",
+                        "type": "url",
+                        "url": "https://www.netflix.com/browse"
+                    },
+                    {
+                        "name": "Crunchyroll - Watch Popular Anime & Read Manga Online",
+                        "type": "url",
+                        "url": "https://www.crunchyroll.com/"
+                    },
+                    {
+                        "name": "Prime Video",
+                        "type": "url",
+                        "url": "https://www.primevideo.com/region/na/?ref_=sd_allcat_apv"
+                    },
+                    {
+                        "name": "Disney+ | Movies and Shows",
+                        "type": "url",
+                        "url": "https://www.disneyplus.com/home"
+                    },
+                    {
+                        "name": "Crave | Watch HBO, Showtime and Starz Movies and TV Shows Online",
+                        "type": "url",
+                        "url": "https://www.crave.ca/en"
+                    }
+                ]
+            },
+            {
+                "name": "Unreal Learning",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "Editor, Plugins and Modules",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "How To Make a Gameplay Module in Unreal Engine | Unreal Engine 5.5 Documentation | Epic Developer Community",
+                                "type": "url",
+                                "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/how-to-make-a-gameplay-module-in-unreal-engine"
+                            },
+                            {
+                                "name": "Extending Unreal Editor with Component Visualizer | Epic Developer Community",
+                                "type": "url",
+                                "url": "https://dev.epicgames.com/community/learning/tutorials/KP5p/unreal-engine-extending-unreal-editor-with-component-visualizer"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "The Complete C++ Guide For Unreal Engine",
+                        "type": "url",
+                        "url": "https://awesometuts.com/blog/cpp-unreal-engine"
+                    },
+                    {
+                        "name": "Unreal Engine CPP Quick Start | Unreal Engine 5.5 Documentation | Epic Developer Community",
+                        "type": "url",
+                        "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-cpp-quick-start"
+                    },
+                    {
+                        "name": "Unreal Engine C++ Complete Guide - Tom Looman",
+                        "type": "url",
+                        "url": "https://www.tomlooman.com/unreal-engine-cpp-guide/"
+                    },
+                    {
+                        "name": "Blueprints vs. C++: How They Fit Together and Why You Should Use Both - YouTube",
+                        "type": "url",
+                        "url": "https://www.youtube.com/watch?v=VMZftEVDuCE"
+                    },
+                    {
+                        "name": "Learn Unreal Engine C++ In One Hour - YouTube",
+                        "type": "url",
+                        "url": "https://www.youtube.com/watch?v=nVm-DYdAsts"
+                    },
+                    {
+                        "name": "C++ for Blueprinters | Unreal Engine - YouTube",
+                        "type": "url",
+                        "url": "https://www.youtube.com/watch?v=6485d5Zoc_k"
+                    },
+                    {
+                        "name": "Learn Unreal Engine (with C++) - Full Course for Beginners - YouTube",
+                        "type": "url",
+                        "url": "https://www.youtube.com/watch?v=LsNW4FPHuZE"
+                    },
+                    {
+                        "name": "Extending Tool Menus in the Editor via C++ \u2013 Tools Development Blog",
+                        "type": "url",
+                        "url": "https://herr-edgy.com/tutorials/extending-tool-menus-in-the-editor-via-c/"
+                    },
+                    {
+                        "name": "Adding Custom Menus To Unreal Engine 5 With Python - YouTube",
+                        "type": "url",
+                        "url": "https://www.youtube.com/watch?v=KLExEMFRk00"
+                    },
+                    {
+                        "name": "Creating Editor Custom Menus | Epic Developer Community",
+                        "type": "url",
+                        "url": "https://dev.epicgames.com/community/learning/tutorials/wjKj/unreal-engine-creating-editor-custom-menus"
+                    },
+                    {
+                        "name": "brifsttar/OpenDRIVE: Unreal Engine OpenDRIVE plugin",
+                        "type": "url",
+                        "url": "https://github.com/brifsttar/OpenDRIVE"
+                    },
+                    {
+                        "name": "CARLA Simulator",
+                        "type": "url",
+                        "url": "https://carla.org/"
+                    }
+                ]
+            },
+            {
+                "name": "Graphics Programming",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "DirectX",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "Book Recommendations | Games for Windows and the DirectX SDK blog",
+                                "type": "url",
+                                "url": "https://walbourn.github.io/book-recommendations/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "OpenGL",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "mortennobel/SimpleRenderEngine: Small C++14 render engine",
+                                "type": "url",
+                                "url": "https://github.com/mortennobel/SimpleRenderEngine"
+                            },
+                            {
+                                "name": "JulianThijssen/Flux: A real-time physically based rendering engine written in C++ and OpenGL",
+                                "type": "url",
+                                "url": "https://github.com/JulianThijssen/Flux"
+                            },
+                            {
+                                "name": "yushroom/FishEngine: Simple, Unity-like Game Engine.",
+                                "type": "url",
+                                "url": "https://github.com/yushroom/FishEngine"
+                            },
+                            {
+                                "name": "JoshuaSenouf/GLEngine: Rendering Engine using C++ and OpenGL",
+                                "type": "url",
+                                "url": "https://github.com/JoshuaSenouf/GLEngine"
+                            },
+                            {
+                                "name": "ddiakopoulos/sandbox: sandbox of experimental & reusable code in C++11 & modern openGL",
+                                "type": "url",
+                                "url": "https://github.com/ddiakopoulos/sandbox"
+                            },
+                            {
+                                "name": "debug-draw/samples at master \u00b7 glampert/debug-draw",
+                                "type": "url",
+                                "url": "https://github.com/glampert/debug-draw/tree/master/samples"
+                            },
+                            {
+                                "name": "ddiakopoulos/tinygizmo: An immediate mode 3D gimzo (translation, rotation, scale for scene editing) in ~1200 LoC",
+                                "type": "url",
+                                "url": "https://github.com/ddiakopoulos/tinygizmo"
+                            },
+                            {
+                                "name": "DiligentGraphics/DiligentEngine: Master repository for Diligent Engine project",
+                                "type": "url",
+                                "url": "https://github.com/DiligentGraphics/DiligentEngine"
+                            },
+                            {
+                                "name": "JoeyDeVries/Cell: OpenGL C++ Graphics Engine",
+                                "type": "url",
+                                "url": "https://github.com/JoeyDeVries/Cell"
+                            },
+                            {
+                                "name": "Nadrin/PBR: An implementation of physically based shading model & image based lighting in various graphics APIs.",
+                                "type": "url",
+                                "url": "https://github.com/Nadrin/PBR"
+                            },
+                            {
+                                "name": "LukasBanana/LLGL: Low Level Graphics Library (LLGL) is a thin abstraction layer for the modern graphics APIs OpenGL, Direct3D, Vulkan, and Metal",
+                                "type": "url",
+                                "url": "https://github.com/LukasBanana/LLGL"
+                            },
+                            {
+                                "name": "mosra/magnum-examples: Examples for the Magnum C++11/C++14 graphics engine",
+                                "type": "url",
+                                "url": "https://github.com/mosra/magnum-examples"
+                            },
+                            {
+                                "name": "mosra/magnum: Lightweight and modular C++11/C++14 graphics middleware for games and data visualization",
+                                "type": "url",
+                                "url": "https://github.com/mosra/magnum"
+                            },
+                            {
+                                "name": "hugoam/kiui: Auto-layout Ui library, lightweight, skinnable and system agnostic, with an OpenGL backend",
+                                "type": "url",
+                                "url": "https://github.com/hugoam/kiui"
+                            },
+                            {
+                                "name": "1kingja/graphics: Code for my OpenGL graphics on YouTube",
+                                "type": "url",
+                                "url": "https://github.com/1kingja/graphics"
+                            },
+                            {
+                                "name": "RippeR37/GLUL: OpenGL Utility Library.",
+                                "type": "url",
+                                "url": "https://github.com/RippeR37/GLUL"
+                            },
+                            {
+                                "name": "DanWatkins/Terrain3D: Interactive 3D terrain simulation using OpenGL 4 and Qt 5.",
+                                "type": "url",
+                                "url": "https://github.com/DanWatkins/Terrain3D"
+                            },
+                            {
+                                "name": "iondune/ionEngine: 3D graphics engine designed for rapid prototyping and extensibility",
+                                "type": "url",
+                                "url": "https://github.com/iondune/ionEngine"
+                            },
+                            {
+                                "name": "cmaughan/zep: Zep - An embeddable editor, with optional support for using vim keystrokes.",
+                                "type": "url",
+                                "url": "https://github.com/cmaughan/zep"
+                            },
+                            {
+                                "name": "hmazhar/moderngl_camera: A quaternion based camera for modern OpenGL",
+                                "type": "url",
+                                "url": "https://github.com/hmazhar/moderngl_camera"
+                            },
+                            {
+                                "name": "subokita/Arcball: Sample simple arcball trackball for OpenGL 4 in C++",
+                                "type": "url",
+                                "url": "https://github.com/subokita/Arcball"
+                            },
+                            {
+                                "name": "64/vin: Cross platform OpenGL-based text editor written in C++",
+                                "type": "url",
+                                "url": "https://github.com/64/vin"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vulkan",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "GitHub - RayTracing/raytracing.github.io: Main Web Site (Online Books)",
+                                "type": "url",
+                                "url": "https://github.com/RayTracing/raytracing.github.io"
+                            },
+                            {
+                                "name": "Learning Modern 3D Graphics Programming",
+                                "type": "url",
+                                "url": "https://paroj.github.io/gltut/"
+                            },
+                            {
+                                "name": "VulkanTutorial/06_swap_chain_creation.cpp at master \u00b7 Overv/VulkanTutorial \u00b7 GitHub",
+                                "type": "url",
+                                "url": "https://github.com/Overv/VulkanTutorial/blob/master/code/06_swap_chain_creation.cpp"
+                            },
+                            {
+                                "name": "Window surface - Vulkan Tutorial",
+                                "type": "url",
+                                "url": "https://vulkan-tutorial.com/Drawing_a_triangle/Presentation/Window_surface"
+                            },
+                            {
+                                "name": "Instance - Vulkan Tutorial",
+                                "type": "url",
+                                "url": "https://vulkan-tutorial.com/Drawing_a_triangle/Setup/Instance"
+                            },
+                            {
+                                "name": "Vulkan in 30 minutes",
+                                "type": "url",
+                                "url": "https://renderdoc.org/vulkan-in-30-minutes.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dear ImGui",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "ImGui Manual",
+                                "type": "url",
+                                "url": "https://pthom.github.io/imgui_manual_online/manual/imgui_manual.html"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Ai and Agentic",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "Agentic AI patterns and workflows on AWS - AWS Prescriptive Guidance",
+                        "type": "url",
+                        "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-patterns/introduction.html"
+                    },
+                    {
+                        "name": "Foundations of agentic AI on AWS - AWS Prescriptive Guidance",
+                        "type": "url",
+                        "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-foundations/introduction.html"
+                    },
+                    {
+                        "name": "Writing best practices to optimize RAG applications - AWS Prescriptive Guidance",
+                        "type": "url",
+                        "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/writing-best-practices-rag/introduction.html"
+                    },
+                    {
+                        "name": "Agentic AI frameworks, protocols, and tools on AWS - AWS Prescriptive Guidance",
+                        "type": "url",
+                        "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-frameworks/introduction.html"
+                    },
+                    {
+                        "name": "Building multi-tenant architectures for agentic AI on AWS - AWS Prescriptive Guidance",
+                        "type": "url",
+                        "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-multitenant/introduction.html"
+                    },
+                    {
+                        "name": "Creating Retrieval Augmented Generation solutions on AWS for healthcare - AWS Prescriptive Guidance",
+                        "type": "url",
+                        "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/rag-healthcare-use-cases/introduction.html"
+                    },
+                    {
+                        "name": "Choosing an AWS vector database for RAG use cases - AWS Prescriptive Guidance",
+                        "type": "url",
+                        "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-an-aws-vector-database-for-rag-use-cases/introduction.html"
+                    },
+                    {
+                        "name": "Building serverless architectures for agentic AI on AWS - AWS Prescriptive Guidance",
+                        "type": "url",
+                        "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-serverless/introduction.html"
+                    },
+                    {
+                        "name": "Meet - P434 | Internal Hololabs Standup",
+                        "type": "url",
+                        "url": "https://meet.google.com/amk-wshm-iqe?authuser=ash.matheson%40hololabs.org"
+                    },
+                    {
+                        "name": "Meet - P434 | Backend Standup - HLBS/HLV/FS - *NEW*",
+                        "type": "url",
+                        "url": "https://meet.google.com/ciy-snty-hgv?authuser=ash.matheson%40hololabs.org"
+                    }
+                ]
+            },
+            {
+                "name": "Home Page - Game Illuminati",
+                "type": "url",
+                "url": "https://gameilluminati.com/realindex.php"
+            },
+            {
+                "name": "Amazon.ca: Low Prices \u2013 Fast Shipping \u2013 Millions of Items",
+                "type": "url",
+                "url": "https://www.amazon.ca/ref=nav_logo"
+            },
+            {
+                "name": "Home | Disney+",
+                "type": "url",
+                "url": "https://www.disneyplus.com/home?irclickid=RgMVHlU5BxyKUQGywtQCT1g-UkCRMoXAewXORY0&irgwc=1&cid=DSS-Affiliate-Impact-Content-Microsoft+Online%2C+Inc-564546&tgclid=0301003c-120c-432b-8800-243e671417e8&dclid=CK6Tp86lm4kDFcggdgYdkNE0KQ"
+            },
+            {
+                "name": "Browse :: Nyaa",
+                "type": "url",
+                "url": "https://nyaa.si/?f=0&c=1_0&q="
+            },
+            {
+                "name": "Audio Books Online Download, Free Unabridged Audiobook Torrent on AudioBook Bay (ABB)",
+                "type": "url",
+                "url": "https://audiobookbay.is/"
+            },
+            {
+                "name": "Spring 2025 Anime | Seasonal Chart | AnimeSchedule.net",
+                "type": "url",
+                "url": "https://animeschedule.net/seasons/spring-2025"
+            },
+            {
+                "name": "1377x | Download torrents | 1337x.to | 1377x.to",
+                "type": "url",
+                "url": "https://www.1377x.to/"
+            },
+            {
+                "name": "Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site",
+                "type": "url",
+                "url": "https://thepiratebay.org/index.html"
+            },
+            {
+                "name": "Launcher",
+                "type": "url",
+                "url": "https://launcher.keychron.com/#/keymap"
+            },
+            {
+                "name": "Google Messages for web",
+                "type": "url",
+                "url": "https://messages.google.com/web/conversations/1"
+            }
+        ]
+    },
+    {
+        "name": "Edge (Default) - Other",
+        "type": "folder",
+        "children": [
+            {
+                "name": "Other Bookmarks",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "GitHub - danistefanovic/build-your-own-x: \ud83e\udd13 Build your own (insert technology here)",
+                        "type": "url",
+                        "url": "https://github.com/danistefanovic/build-your-own-x#build-your-own-3d-renderer"
+                    }
+                ]
+            },
+            {
+                "name": "Synced Bookmarks",
+                "type": "folder",
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "Edge (Default) - Synced",
+        "type": "folder",
+        "children": [
+            {
+                "name": "tremol-no.com/videos/",
+                "type": "url",
+                "url": "https://www.tremol-no.com/videos/"
+            }
+        ]
+    },
+    {
+        "name": "Vivaldi (Default) - Bookmark Bar",
+        "type": "folder",
+        "children": [
+            {
+                "name": "Graphics",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "A case for learning GPU programming with a compute-first mindset \u2013 Maister's Graphics Adventures",
+                        "type": "url",
+                        "url": "https://themaister.net/blog/2025/10/05/a-case-for-learning-gpu-programming-with-a-compute-first-mindset/"
+                    },
+                    {
+                        "name": "GPC24_Occupancy_explained.pdf",
+                        "type": "url",
+                        "url": "https://gpuopen.com/download/GPC24_Occupancy_explained.pdf"
+                    },
+                    {
+                        "name": "Intro to GPU Scalarization \u2013 Part 2 -Scalarize all the lights \u2013 Dreams of flashy pixels (on a white website)",
+                        "type": "url",
+                        "url": "https://flashypixels.wordpress.com/2018/11/10/intro-to-gpu-scalarization-part-2-scalarize-all-the-lights/"
+                    },
+                    {
+                        "name": "Intro to GPU Scalarization \u2013 Part 1 \u2013 Dreams of flashy pixels (on a white website)",
+                        "type": "url",
+                        "url": "https://flashypixels.wordpress.com/2018/11/10/intro-to-gpu-scalarization-part-1/"
+                    }
+                ]
+            },
+            {
+                "name": "Home",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "Amazon",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/amazon-ca"
+                    },
+                    {
+                        "name": "Vivaldi Browser",
+                        "type": "url",
+                        "url": "https://vivaldi.com/"
+                    },
+                    {
+                        "name": "Vivaldi Social",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/sd-social"
+                    },
+                    {
+                        "name": "Vivaldi Community",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/sd-community"
+                    },
+                    {
+                        "name": "AccuWeather",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/sd-accuweather"
+                    }
+                ]
+            },
+            {
+                "name": "Bookmarks",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "Vivaldi",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "Vivaldi Features",
+                                "type": "url",
+                                "url": "https://vivaldi.com/bk/sd-browser-features"
+                            },
+                            {
+                                "name": "Vivaldi Webmail",
+                                "type": "url",
+                                "url": "https://vivaldi.com/bk/sd-webmail"
+                            },
+                            {
+                                "name": "Vivaldia Games",
+                                "type": "url",
+                                "url": "https://vivaldi.com/bk/vivaldia-game"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Booking.com",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/booking-ca-bk"
+                    },
+                    {
+                        "name": "Expedia",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/expedia-eu"
+                    },
+                    {
+                        "name": "Tripadvisor",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/tripadvisor-bk"
+                    },
+                    {
+                        "name": "AliExpress",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/ali-ca-bk"
+                    },
+                    {
+                        "name": "Amazon",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/amazon-ca-bk"
+                    },
+                    {
+                        "name": "eBay",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/ebay-ca-bk"
+                    }
+                ]
+            },
+            {
+                "name": "Imported bookmarks",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "Bookmarks bar",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "Keyboards",
+                                "type": "folder",
+                                "children": [
+                                    {
+                                        "name": "Keychron Launcher",
+                                        "type": "url",
+                                        "url": "https://launcher.keychron.com/#/keymap"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Graphics Programming",
+                                "type": "folder",
+                                "children": [
+                                    {
+                                        "name": "Introduction - 3D Math Primer for Graphics and Game Development",
+                                        "type": "url",
+                                        "url": "https://gamemath.com/book/intro.html"
+                                    },
+                                    {
+                                        "name": "Rust + DX12",
+                                        "type": "folder",
+                                        "children": [
+                                            {
+                                                "name": "Hudhook \u2014 Rust gfx library // Lib.rs",
+                                                "type": "url",
+                                                "url": "https://lib.rs/crates/hudhook"
+                                            },
+                                            {
+                                                "name": "Shroud \u2014 Rust gfx library // Lib.rs",
+                                                "type": "url",
+                                                "url": "https://lib.rs/crates/shroud"
+                                            },
+                                            {
+                                                "name": "Kiss3d \u2014 Rust gfx library // Lib.rs",
+                                                "type": "url",
+                                                "url": "https://lib.rs/crates/kiss3d"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "DirectX",
+                                        "type": "folder",
+                                        "children": [
+                                            {
+                                                "name": "Hope you can recommend me some good tutorials for beginners. \u00b7 Issue #103 \u00b7 microsoft/DirectX-Graphics-Samples",
+                                                "type": "url",
+                                                "url": "https://github.com/Microsoft/DirectX-Graphics-Samples/issues/103"
+                                            },
+                                            {
+                                                "name": "Getting Started \u00b7 microsoft/DirectXTK Wiki \u00b7 GitHub",
+                                                "type": "url",
+                                                "url": "https://github.com/microsoft/DirectXTK/wiki/Getting-Started"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Vulkan",
+                                        "type": "folder",
+                                        "children": [
+                                            {
+                                                "name": "Instance - Vulkan Tutorial",
+                                                "type": "url",
+                                                "url": "https://vulkan-tutorial.com/Drawing_a_triangle/Setup/Instance"
+                                            },
+                                            {
+                                                "name": "Vulkan in 30 minutes",
+                                                "type": "url",
+                                                "url": "https://renderdoc.org/vulkan-in-30-minutes.html"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "OpenGL",
+                                        "type": "folder",
+                                        "children": [
+                                            {
+                                                "name": "mortennobel/SimpleRenderEngine: Small C++14 render engine",
+                                                "type": "url",
+                                                "url": "https://github.com/mortennobel/SimpleRenderEngine"
+                                            },
+                                            {
+                                                "name": "JulianThijssen/Flux: A real-time physically based rendering engine written in C++ and OpenGL",
+                                                "type": "url",
+                                                "url": "https://github.com/JulianThijssen/Flux"
+                                            },
+                                            {
+                                                "name": "yushroom/FishEngine: Simple, Unity-like Game Engine.",
+                                                "type": "url",
+                                                "url": "https://github.com/yushroom/FishEngine"
+                                            },
+                                            {
+                                                "name": "JoshuaSenouf/GLEngine: Rendering Engine using C++ and OpenGL",
+                                                "type": "url",
+                                                "url": "https://github.com/JoshuaSenouf/GLEngine"
+                                            },
+                                            {
+                                                "name": "ddiakopoulos/sandbox: sandbox of experimental & reusable code in C++11 & modern openGL",
+                                                "type": "url",
+                                                "url": "https://github.com/ddiakopoulos/sandbox"
+                                            },
+                                            {
+                                                "name": "debug-draw/samples at master \u00b7 glampert/debug-draw",
+                                                "type": "url",
+                                                "url": "https://github.com/glampert/debug-draw/tree/master/samples"
+                                            },
+                                            {
+                                                "name": "ddiakopoulos/tinygizmo: An immediate mode 3D gimzo (translation, rotation, scale for scene editing) in ~1200 LoC",
+                                                "type": "url",
+                                                "url": "https://github.com/ddiakopoulos/tinygizmo"
+                                            },
+                                            {
+                                                "name": "DiligentGraphics/DiligentEngine: Master repository for Diligent Engine project",
+                                                "type": "url",
+                                                "url": "https://github.com/DiligentGraphics/DiligentEngine"
+                                            },
+                                            {
+                                                "name": "JoeyDeVries/Cell: OpenGL C++ Graphics Engine",
+                                                "type": "url",
+                                                "url": "https://github.com/JoeyDeVries/Cell"
+                                            },
+                                            {
+                                                "name": "Nadrin/PBR: An implementation of physically based shading model & image based lighting in various graphics APIs.",
+                                                "type": "url",
+                                                "url": "https://github.com/Nadrin/PBR"
+                                            },
+                                            {
+                                                "name": "LukasBanana/LLGL: Low Level Graphics Library (LLGL) is a thin abstraction layer for the modern graphics APIs OpenGL, Direct3D, Vulkan, and Metal",
+                                                "type": "url",
+                                                "url": "https://github.com/LukasBanana/LLGL"
+                                            },
+                                            {
+                                                "name": "mosra/magnum-examples: Examples for the Magnum C++11/C++14 graphics engine",
+                                                "type": "url",
+                                                "url": "https://github.com/mosra/magnum-examples"
+                                            },
+                                            {
+                                                "name": "mosra/magnum: Lightweight and modular C++11/C++14 graphics middleware for games and data visualization",
+                                                "type": "url",
+                                                "url": "https://github.com/mosra/magnum"
+                                            },
+                                            {
+                                                "name": "hugoam/kiui: Auto-layout Ui library, lightweight, skinnable and system agnostic, with an OpenGL backend",
+                                                "type": "url",
+                                                "url": "https://github.com/hugoam/kiui"
+                                            },
+                                            {
+                                                "name": "1kingja/graphics: Code for my OpenGL graphics on YouTube",
+                                                "type": "url",
+                                                "url": "https://github.com/1kingja/graphics"
+                                            },
+                                            {
+                                                "name": "RippeR37/GLUL: OpenGL Utility Library.",
+                                                "type": "url",
+                                                "url": "https://github.com/RippeR37/GLUL"
+                                            },
+                                            {
+                                                "name": "DanWatkins/Terrain3D: Interactive 3D terrain simulation using OpenGL 4 and Qt 5.",
+                                                "type": "url",
+                                                "url": "https://github.com/DanWatkins/Terrain3D"
+                                            },
+                                            {
+                                                "name": "iondune/ionEngine: 3D graphics engine designed for rapid prototyping and extensibility",
+                                                "type": "url",
+                                                "url": "https://github.com/iondune/ionEngine"
+                                            },
+                                            {
+                                                "name": "cmaughan/zep: Zep - An embeddable editor, with optional support for using vim keystrokes.",
+                                                "type": "url",
+                                                "url": "https://github.com/cmaughan/zep"
+                                            },
+                                            {
+                                                "name": "hmazhar/moderngl_camera: A quaternion based camera for modern OpenGL",
+                                                "type": "url",
+                                                "url": "https://github.com/hmazhar/moderngl_camera"
+                                            },
+                                            {
+                                                "name": "subokita/Arcball: Sample simple arcball trackball for OpenGL 4 in C++",
+                                                "type": "url",
+                                                "url": "https://github.com/subokita/Arcball"
+                                            },
+                                            {
+                                                "name": "64/vin: Cross platform OpenGL-based text editor written in C++",
+                                                "type": "url",
+                                                "url": "https://github.com/64/vin"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Graphics Tool libs",
+                                        "type": "folder",
+                                        "children": [
+                                            {
+                                                "name": "tinyply/source/example.cpp at master \u00b7 ddiakopoulos/tinyply \u00b7 GitHub",
+                                                "type": "url",
+                                                "url": "https://github.com/ddiakopoulos/tinyply/blob/master/source/example.cpp"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Leidon Labs",
+                                "type": "folder",
+                                "children": [
+                                    {
+                                        "name": "Accounts Overview",
+                                        "type": "url",
+                                        "url": "https://easyweb.td.com/ui/ew/fs?fsType=PFS&kyc=Y"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Prime Video: TV Shows",
+                                "type": "url",
+                                "url": "https://www.primevideo.com/storefront/tv/ref=atv_nb_sf_tv"
+                            },
+                            {
+                                "name": "Browse :: Nyaa",
+                                "type": "url",
+                                "url": "https://nyaa.si/?f=0&c=1_0&q="
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Other bookmarks",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "GitHub - danistefanovic/build-your-own-x: \ud83e\udd13 Build your own (insert technology here)",
+                                "type": "url",
+                                "url": "https://github.com/danistefanovic/build-your-own-x#build-your-own-3d-renderer"
+                            },
+                            {
+                                "name": "Firmware \u2013 Keychron | Mechanical Keyboards for Mac, Windows and Android",
+                                "type": "url",
+                                "url": "https://www.keychron.com/pages/firmware"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Imported bookmarks (1)",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "Bookmarks",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "Crave | Watch HBO, Showtime and Starz Movies and TV Shows Online",
+                                "type": "url",
+                                "url": "https://www.crave.ca/en"
+                            },
+                            {
+                                "name": "Home - Netflix",
+                                "type": "url",
+                                "url": "https://www.netflix.com/browse"
+                            },
+                            {
+                                "name": "Prime Video",
+                                "type": "url",
+                                "url": "https://www.primevideo.com/region/na/?ref_=sd_allcat_apv"
+                            },
+                            {
+                                "name": "Crunchyroll - Watch Popular Anime & Read Manga Online",
+                                "type": "url",
+                                "url": "https://www.crunchyroll.com/"
+                            },
+                            {
+                                "name": "Amazon.ca: Low Prices \u2013 Fast Shipping \u2013 Millions of Items",
+                                "type": "url",
+                                "url": "https://www.amazon.ca/ref=nav_logo"
+                            },
+                            {
+                                "name": "Vulkan",
+                                "type": "folder",
+                                "children": [
+                                    {
+                                        "name": "GitHub - RayTracing/raytracing.github.io: Main Web Site (Online Books)",
+                                        "type": "url",
+                                        "url": "https://github.com/RayTracing/raytracing.github.io"
+                                    },
+                                    {
+                                        "name": "Learning Modern 3D Graphics Programming",
+                                        "type": "url",
+                                        "url": "https://paroj.github.io/gltut/"
+                                    },
+                                    {
+                                        "name": "VulkanTutorial/06_swap_chain_creation.cpp at master \u00b7 Overv/VulkanTutorial \u00b7 GitHub",
+                                        "type": "url",
+                                        "url": "https://github.com/Overv/VulkanTutorial/blob/master/code/06_swap_chain_creation.cpp"
+                                    },
+                                    {
+                                        "name": "Window surface - Vulkan Tutorial",
+                                        "type": "url",
+                                        "url": "https://vulkan-tutorial.com/Drawing_a_triangle/Presentation/Window_surface"
+                                    },
+                                    {
+                                        "name": "Instance - Vulkan Tutorial",
+                                        "type": "url",
+                                        "url": "https://vulkan-tutorial.com/Drawing_a_triangle/Setup/Instance"
+                                    },
+                                    {
+                                        "name": "Vulkan in 30 minutes",
+                                        "type": "url",
+                                        "url": "https://renderdoc.org/vulkan-in-30-minutes.html"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "DirectX 11",
+                                "type": "folder",
+                                "children": [
+                                    {
+                                        "name": "GitHub - microsoft/DirectXTK: The DirectX Tool Kit (aka DirectXTK) is a collection of helper classes for writing DirectX 11.x code in C++",
+                                        "type": "url",
+                                        "url": "https://github.com/microsoft/DirectXTK"
+                                    },
+                                    {
+                                        "name": "GitHub - matt77hias/RasterTek: DirectX 11 Tutorials",
+                                        "type": "url",
+                                        "url": "https://github.com/matt77hias/RasterTek"
+                                    },
+                                    {
+                                        "name": "GitHub - jjuiddong/Introduction-to-3D-Game-Programming-With-DirectX11: Book Example Code in [Introduction to 3D Game Programming With DirectX11 by Frank Luna ]",
+                                        "type": "url",
+                                        "url": "https://github.com/jjuiddong/Introduction-to-3D-Game-Programming-With-DirectX11"
+                                    },
+                                    {
+                                        "name": "GitHub - kevinmoran/BeginnerDirect3D11: Starter code samples for Direct3D11",
+                                        "type": "url",
+                                        "url": "https://github.com/kevinmoran/BeginnerDirect3D11"
+                                    },
+                                    {
+                                        "name": "GitHub - rayXgl/directx11-tutorials: Updated http://braynzarsoft.net/index.php?p=DX11Lessons DirectX11 Tutorial sources",
+                                        "type": "url",
+                                        "url": "https://github.com/rayXgl/directx11-tutorials"
+                                    },
+                                    {
+                                        "name": "GitHub - DDreher/DX11Sandbox: Small rendering sandbox for DirectX 11",
+                                        "type": "url",
+                                        "url": "https://github.com/DDreher/DX11Sandbox"
+                                    },
+                                    {
+                                        "name": "GitHub - matt77hias/D3D11-Projects: \ud83d\udd2c Projects to start learning Direct3D11 (D3D11)",
+                                        "type": "url",
+                                        "url": "https://github.com/matt77hias/D3D11-Projects"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "OpenGL",
+                                "type": "folder",
+                                "children": [
+                                    {
+                                        "name": "mortennobel/SimpleRenderEngine: Small C++14 render engine",
+                                        "type": "url",
+                                        "url": "https://github.com/mortennobel/SimpleRenderEngine"
+                                    },
+                                    {
+                                        "name": "JulianThijssen/Flux: A real-time physically based rendering engine written in C++ and OpenGL",
+                                        "type": "url",
+                                        "url": "https://github.com/JulianThijssen/Flux"
+                                    },
+                                    {
+                                        "name": "yushroom/FishEngine: Simple, Unity-like Game Engine.",
+                                        "type": "url",
+                                        "url": "https://github.com/yushroom/FishEngine"
+                                    },
+                                    {
+                                        "name": "JoshuaSenouf/GLEngine: Rendering Engine using C++ and OpenGL",
+                                        "type": "url",
+                                        "url": "https://github.com/JoshuaSenouf/GLEngine"
+                                    },
+                                    {
+                                        "name": "ddiakopoulos/sandbox: sandbox of experimental & reusable code in C++11 & modern openGL",
+                                        "type": "url",
+                                        "url": "https://github.com/ddiakopoulos/sandbox"
+                                    },
+                                    {
+                                        "name": "debug-draw/samples at master \u00b7 glampert/debug-draw",
+                                        "type": "url",
+                                        "url": "https://github.com/glampert/debug-draw/tree/master/samples"
+                                    },
+                                    {
+                                        "name": "ddiakopoulos/tinygizmo: An immediate mode 3D gimzo (translation, rotation, scale for scene editing) in ~1200 LoC",
+                                        "type": "url",
+                                        "url": "https://github.com/ddiakopoulos/tinygizmo"
+                                    },
+                                    {
+                                        "name": "DiligentGraphics/DiligentEngine: Master repository for Diligent Engine project",
+                                        "type": "url",
+                                        "url": "https://github.com/DiligentGraphics/DiligentEngine"
+                                    },
+                                    {
+                                        "name": "JoeyDeVries/Cell: OpenGL C++ Graphics Engine",
+                                        "type": "url",
+                                        "url": "https://github.com/JoeyDeVries/Cell"
+                                    },
+                                    {
+                                        "name": "Nadrin/PBR: An implementation of physically based shading model & image based lighting in various graphics APIs.",
+                                        "type": "url",
+                                        "url": "https://github.com/Nadrin/PBR"
+                                    },
+                                    {
+                                        "name": "LukasBanana/LLGL: Low Level Graphics Library (LLGL) is a thin abstraction layer for the modern graphics APIs OpenGL, Direct3D, Vulkan, and Metal",
+                                        "type": "url",
+                                        "url": "https://github.com/LukasBanana/LLGL"
+                                    },
+                                    {
+                                        "name": "mosra/magnum-examples: Examples for the Magnum C++11/C++14 graphics engine",
+                                        "type": "url",
+                                        "url": "https://github.com/mosra/magnum-examples"
+                                    },
+                                    {
+                                        "name": "mosra/magnum: Lightweight and modular C++11/C++14 graphics middleware for games and data visualization",
+                                        "type": "url",
+                                        "url": "https://github.com/mosra/magnum"
+                                    },
+                                    {
+                                        "name": "hugoam/kiui: Auto-layout Ui library, lightweight, skinnable and system agnostic, with an OpenGL backend",
+                                        "type": "url",
+                                        "url": "https://github.com/hugoam/kiui"
+                                    },
+                                    {
+                                        "name": "1kingja/graphics: Code for my OpenGL graphics on YouTube",
+                                        "type": "url",
+                                        "url": "https://github.com/1kingja/graphics"
+                                    },
+                                    {
+                                        "name": "RippeR37/GLUL: OpenGL Utility Library.",
+                                        "type": "url",
+                                        "url": "https://github.com/RippeR37/GLUL"
+                                    },
+                                    {
+                                        "name": "DanWatkins/Terrain3D: Interactive 3D terrain simulation using OpenGL 4 and Qt 5.",
+                                        "type": "url",
+                                        "url": "https://github.com/DanWatkins/Terrain3D"
+                                    },
+                                    {
+                                        "name": "iondune/ionEngine: 3D graphics engine designed for rapid prototyping and extensibility",
+                                        "type": "url",
+                                        "url": "https://github.com/iondune/ionEngine"
+                                    },
+                                    {
+                                        "name": "cmaughan/zep: Zep - An embeddable editor, with optional support for using vim keystrokes.",
+                                        "type": "url",
+                                        "url": "https://github.com/cmaughan/zep"
+                                    },
+                                    {
+                                        "name": "hmazhar/moderngl_camera: A quaternion based camera for modern OpenGL",
+                                        "type": "url",
+                                        "url": "https://github.com/hmazhar/moderngl_camera"
+                                    },
+                                    {
+                                        "name": "subokita/Arcball: Sample simple arcball trackball for OpenGL 4 in C++",
+                                        "type": "url",
+                                        "url": "https://github.com/subokita/Arcball"
+                                    },
+                                    {
+                                        "name": "64/vin: Cross platform OpenGL-based text editor written in C++",
+                                        "type": "url",
+                                        "url": "https://github.com/64/vin"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Unity",
+                                "type": "folder",
+                                "children": [
+                                    {
+                                        "name": "Workday unitytech - Sign In to Workday",
+                                        "type": "url",
+                                        "url": "https://www.myworkday.com/wday/authgwy/unitytech/login.htmld?redirect=n"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Browse :: Nyaa",
+                                "type": "url",
+                                "url": "https://nyaa.si/?f=0&c=1_0&q="
+                            },
+                            {
+                                "name": "torrent :: Nyaa",
+                                "type": "url",
+                                "url": "https://nyaa.si/?s=id&o=desc&f=0&c=0_0&q=torrent&p=6"
+                            },
+                            {
+                                "name": "Imported from Microsoft Edge Profile 1.",
+                                "type": "folder",
+                                "children": [
+                                    {
+                                        "name": "Other favorites",
+                                        "type": "folder",
+                                        "children": [
+                                            {
+                                                "name": "Other Bookmarks",
+                                                "type": "folder",
+                                                "children": [
+                                                    {
+                                                        "name": "GitHub - danistefanovic/build-your-own-x: \ud83e\udd13 Build your own (insert technology here)",
+                                                        "type": "url",
+                                                        "url": "https://github.com/danistefanovic/build-your-own-x#build-your-own-3d-renderer"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Synced Bookmarks",
+                                                "type": "folder",
+                                                "children": [
+                                                    {
+                                                        "name": "Chrome River",
+                                                        "type": "url",
+                                                        "url": "https://app.ca1.chromeriver.com/index"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "ashmathesondev/streamdeck: Some Streamdeck 'things' I'm working on.",
+                "type": "url",
+                "url": "https://github.com/ashmathesondev/streamdeck"
+            }
+        ]
+    },
+    {
+        "name": "Vivaldi (Default) - Trash",
+        "type": "folder",
+        "children": [
+            {
+                "name": "Travel",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "Kayak",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/kayak-en-ca"
+                    },
+                    {
+                        "name": "Skyscanner",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/skyscanner"
+                    },
+                    {
+                        "name": "Trip.com",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/sd-trip"
+                    },
+                    {
+                        "name": "Tripadvisor",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/tripadvisor-world"
+                    },
+                    {
+                        "name": "GetYourGuide",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/sd-getyourguide"
+                    }
+                ]
+            },
+            {
+                "name": "Shopping",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "eBay",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/ebay-ca"
+                    },
+                    {
+                        "name": "AliExpress",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/aliexpress-ca"
+                    },
+                    {
+                        "name": "Eneba",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/eneba-en-ca"
+                    },
+                    {
+                        "name": "SHEIN",
+                        "type": "url",
+                        "url": "https://vivaldi.com/bk/sd-shein"
+                    }
+                ]
+            },
+            {
+                "name": "Booking.com",
+                "type": "url",
+                "url": "https://vivaldi.com/bk/booking-ca"
+            }
+        ]
+    },
+    {
+        "name": "Comet (Default) - Bookmark Bar",
+        "type": "folder",
+        "children": [
+            {
+                "name": "Streaming",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "Home - Netflix",
+                        "type": "url",
+                        "url": "https://www.netflix.com/browse"
+                    },
+                    {
+                        "name": "Crunchyroll - Watch Popular Anime & Read Manga Online",
+                        "type": "url",
+                        "url": "https://www.crunchyroll.com/"
+                    },
+                    {
+                        "name": "Prime Video",
+                        "type": "url",
+                        "url": "https://www.primevideo.com/region/na/?ref_=sd_allcat_apv"
+                    },
+                    {
+                        "name": "Disney+ | Movies and Shows",
+                        "type": "url",
+                        "url": "https://www.disneyplus.com/home"
+                    },
+                    {
+                        "name": "Crave | Watch HBO, Showtime and Starz Movies and TV Shows Online",
+                        "type": "url",
+                        "url": "https://www.crave.ca/en"
+                    }
+                ]
+            },
+            {
+                "name": "Unreal Learning",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "Editor, Plugins and Modules",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "How To Make a Gameplay Module in Unreal Engine | Unreal Engine 5.5 Documentation | Epic Developer Community",
+                                "type": "url",
+                                "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/how-to-make-a-gameplay-module-in-unreal-engine"
+                            },
+                            {
+                                "name": "Extending Unreal Editor with Component Visualizer | Epic Developer Community",
+                                "type": "url",
+                                "url": "https://dev.epicgames.com/community/learning/tutorials/KP5p/unreal-engine-extending-unreal-editor-with-component-visualizer"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "The Complete C++ Guide For Unreal Engine",
+                        "type": "url",
+                        "url": "https://awesometuts.com/blog/cpp-unreal-engine"
+                    },
+                    {
+                        "name": "Unreal Engine CPP Quick Start | Unreal Engine 5.5 Documentation | Epic Developer Community",
+                        "type": "url",
+                        "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-cpp-quick-start"
+                    },
+                    {
+                        "name": "Unreal Engine C++ Complete Guide - Tom Looman",
+                        "type": "url",
+                        "url": "https://www.tomlooman.com/unreal-engine-cpp-guide/"
+                    },
+                    {
+                        "name": "Blueprints vs. C++: How They Fit Together and Why You Should Use Both - YouTube",
+                        "type": "url",
+                        "url": "https://www.youtube.com/watch?v=VMZftEVDuCE"
+                    },
+                    {
+                        "name": "Learn Unreal Engine C++ In One Hour - YouTube",
+                        "type": "url",
+                        "url": "https://www.youtube.com/watch?v=nVm-DYdAsts"
+                    },
+                    {
+                        "name": "C++ for Blueprinters | Unreal Engine - YouTube",
+                        "type": "url",
+                        "url": "https://www.youtube.com/watch?v=6485d5Zoc_k"
+                    },
+                    {
+                        "name": "Learn Unreal Engine (with C++) - Full Course for Beginners - YouTube",
+                        "type": "url",
+                        "url": "https://www.youtube.com/watch?v=LsNW4FPHuZE"
+                    },
+                    {
+                        "name": "Extending Tool Menus in the Editor via C++ \u2013 Tools Development Blog",
+                        "type": "url",
+                        "url": "https://herr-edgy.com/tutorials/extending-tool-menus-in-the-editor-via-c/"
+                    },
+                    {
+                        "name": "Adding Custom Menus To Unreal Engine 5 With Python - YouTube",
+                        "type": "url",
+                        "url": "https://www.youtube.com/watch?v=KLExEMFRk00"
+                    },
+                    {
+                        "name": "Creating Editor Custom Menus | Epic Developer Community",
+                        "type": "url",
+                        "url": "https://dev.epicgames.com/community/learning/tutorials/wjKj/unreal-engine-creating-editor-custom-menus"
+                    },
+                    {
+                        "name": "brifsttar/OpenDRIVE: Unreal Engine OpenDRIVE plugin",
+                        "type": "url",
+                        "url": "https://github.com/brifsttar/OpenDRIVE"
+                    },
+                    {
+                        "name": "CARLA Simulator",
+                        "type": "url",
+                        "url": "https://carla.org/"
+                    }
+                ]
+            },
+            {
+                "name": "Graphics Programming",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "DirectX",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "Book Recommendations | Games for Windows and the DirectX SDK blog",
+                                "type": "url",
+                                "url": "https://walbourn.github.io/book-recommendations/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "OpenGL",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "mortennobel/SimpleRenderEngine: Small C++14 render engine",
+                                "type": "url",
+                                "url": "https://github.com/mortennobel/SimpleRenderEngine"
+                            },
+                            {
+                                "name": "JulianThijssen/Flux: A real-time physically based rendering engine written in C++ and OpenGL",
+                                "type": "url",
+                                "url": "https://github.com/JulianThijssen/Flux"
+                            },
+                            {
+                                "name": "yushroom/FishEngine: Simple, Unity-like Game Engine.",
+                                "type": "url",
+                                "url": "https://github.com/yushroom/FishEngine"
+                            },
+                            {
+                                "name": "JoshuaSenouf/GLEngine: Rendering Engine using C++ and OpenGL",
+                                "type": "url",
+                                "url": "https://github.com/JoshuaSenouf/GLEngine"
+                            },
+                            {
+                                "name": "ddiakopoulos/sandbox: sandbox of experimental & reusable code in C++11 & modern openGL",
+                                "type": "url",
+                                "url": "https://github.com/ddiakopoulos/sandbox"
+                            },
+                            {
+                                "name": "debug-draw/samples at master \u00b7 glampert/debug-draw",
+                                "type": "url",
+                                "url": "https://github.com/glampert/debug-draw/tree/master/samples"
+                            },
+                            {
+                                "name": "ddiakopoulos/tinygizmo: An immediate mode 3D gimzo (translation, rotation, scale for scene editing) in ~1200 LoC",
+                                "type": "url",
+                                "url": "https://github.com/ddiakopoulos/tinygizmo"
+                            },
+                            {
+                                "name": "DiligentGraphics/DiligentEngine: Master repository for Diligent Engine project",
+                                "type": "url",
+                                "url": "https://github.com/DiligentGraphics/DiligentEngine"
+                            },
+                            {
+                                "name": "JoeyDeVries/Cell: OpenGL C++ Graphics Engine",
+                                "type": "url",
+                                "url": "https://github.com/JoeyDeVries/Cell"
+                            },
+                            {
+                                "name": "Nadrin/PBR: An implementation of physically based shading model & image based lighting in various graphics APIs.",
+                                "type": "url",
+                                "url": "https://github.com/Nadrin/PBR"
+                            },
+                            {
+                                "name": "LukasBanana/LLGL: Low Level Graphics Library (LLGL) is a thin abstraction layer for the modern graphics APIs OpenGL, Direct3D, Vulkan, and Metal",
+                                "type": "url",
+                                "url": "https://github.com/LukasBanana/LLGL"
+                            },
+                            {
+                                "name": "mosra/magnum-examples: Examples for the Magnum C++11/C++14 graphics engine",
+                                "type": "url",
+                                "url": "https://github.com/mosra/magnum-examples"
+                            },
+                            {
+                                "name": "mosra/magnum: Lightweight and modular C++11/C++14 graphics middleware for games and data visualization",
+                                "type": "url",
+                                "url": "https://github.com/mosra/magnum"
+                            },
+                            {
+                                "name": "hugoam/kiui: Auto-layout Ui library, lightweight, skinnable and system agnostic, with an OpenGL backend",
+                                "type": "url",
+                                "url": "https://github.com/hugoam/kiui"
+                            },
+                            {
+                                "name": "1kingja/graphics: Code for my OpenGL graphics on YouTube",
+                                "type": "url",
+                                "url": "https://github.com/1kingja/graphics"
+                            },
+                            {
+                                "name": "RippeR37/GLUL: OpenGL Utility Library.",
+                                "type": "url",
+                                "url": "https://github.com/RippeR37/GLUL"
+                            },
+                            {
+                                "name": "DanWatkins/Terrain3D: Interactive 3D terrain simulation using OpenGL 4 and Qt 5.",
+                                "type": "url",
+                                "url": "https://github.com/DanWatkins/Terrain3D"
+                            },
+                            {
+                                "name": "iondune/ionEngine: 3D graphics engine designed for rapid prototyping and extensibility",
+                                "type": "url",
+                                "url": "https://github.com/iondune/ionEngine"
+                            },
+                            {
+                                "name": "cmaughan/zep: Zep - An embeddable editor, with optional support for using vim keystrokes.",
+                                "type": "url",
+                                "url": "https://github.com/cmaughan/zep"
+                            },
+                            {
+                                "name": "hmazhar/moderngl_camera: A quaternion based camera for modern OpenGL",
+                                "type": "url",
+                                "url": "https://github.com/hmazhar/moderngl_camera"
+                            },
+                            {
+                                "name": "subokita/Arcball: Sample simple arcball trackball for OpenGL 4 in C++",
+                                "type": "url",
+                                "url": "https://github.com/subokita/Arcball"
+                            },
+                            {
+                                "name": "64/vin: Cross platform OpenGL-based text editor written in C++",
+                                "type": "url",
+                                "url": "https://github.com/64/vin"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vulkan",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "GitHub - RayTracing/raytracing.github.io: Main Web Site (Online Books)",
+                                "type": "url",
+                                "url": "https://github.com/RayTracing/raytracing.github.io"
+                            },
+                            {
+                                "name": "Learning Modern 3D Graphics Programming",
+                                "type": "url",
+                                "url": "https://paroj.github.io/gltut/"
+                            },
+                            {
+                                "name": "VulkanTutorial/06_swap_chain_creation.cpp at master \u00b7 Overv/VulkanTutorial \u00b7 GitHub",
+                                "type": "url",
+                                "url": "https://github.com/Overv/VulkanTutorial/blob/master/code/06_swap_chain_creation.cpp"
+                            },
+                            {
+                                "name": "Window surface - Vulkan Tutorial",
+                                "type": "url",
+                                "url": "https://vulkan-tutorial.com/Drawing_a_triangle/Presentation/Window_surface"
+                            },
+                            {
+                                "name": "Instance - Vulkan Tutorial",
+                                "type": "url",
+                                "url": "https://vulkan-tutorial.com/Drawing_a_triangle/Setup/Instance"
+                            },
+                            {
+                                "name": "Vulkan in 30 minutes",
+                                "type": "url",
+                                "url": "https://renderdoc.org/vulkan-in-30-minutes.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dear ImGui",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "ImGui Manual",
+                                "type": "url",
+                                "url": "https://pthom.github.io/imgui_manual_online/manual/imgui_manual.html"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "RosyGameStudio/forge-gpu: Learn real-time graphics programming and build games with SDL's GPU API. Tutorials, code examples, and Claude Code skills",
+                        "type": "url",
+                        "url": "https://github.com/RosyGameStudio/forge-gpu"
+                    }
+                ]
+            },
+            {
+                "name": "Home Page - Game Illuminati",
+                "type": "url",
+                "url": "https://gameilluminati.com/realindex.php"
+            },
+            {
+                "name": "Amazon.ca: Low Prices \u2013 Fast Shipping \u2013 Millions of Items",
+                "type": "url",
+                "url": "https://www.amazon.ca/ref=nav_logo"
+            },
+            {
+                "name": "Home | Disney+",
+                "type": "url",
+                "url": "https://www.disneyplus.com/home?irclickid=RgMVHlU5BxyKUQGywtQCT1g-UkCRMoXAewXORY0&irgwc=1&cid=DSS-Affiliate-Impact-Content-Microsoft+Online%2C+Inc-564546&tgclid=0301003c-120c-432b-8800-243e671417e8&dclid=CK6Tp86lm4kDFcggdgYdkNE0KQ"
+            },
+            {
+                "name": "Browse :: Nyaa",
+                "type": "url",
+                "url": "https://nyaa.si/?f=0&c=1_0&q="
+            },
+            {
+                "name": "Audio Books Online Download, Free Unabridged Audiobook Torrent on AudioBook Bay (ABB)",
+                "type": "url",
+                "url": "https://audiobookbay.is/"
+            },
+            {
+                "name": "Spring 2025 Anime | Seasonal Chart | AnimeSchedule.net",
+                "type": "url",
+                "url": "https://animeschedule.net/seasons/spring-2025"
+            },
+            {
+                "name": "1377x | Download torrents | 1337x.to | 1377x.to",
+                "type": "url",
+                "url": "https://www.1377x.to/"
+            },
+            {
+                "name": "Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site",
+                "type": "url",
+                "url": "https://thepiratebay.org/index.html"
+            },
+            {
+                "name": "Launcher",
+                "type": "url",
+                "url": "https://launcher.keychron.com/#/keymap"
+            },
+            {
+                "name": "Google Messages for web",
+                "type": "url",
+                "url": "https://messages.google.com/web/conversations/1"
+            },
+            {
+                "name": "Imported From Microsoft Edge",
+                "type": "folder",
+                "children": [
+                    {
+                        "name": "Other favorites",
+                        "type": "folder",
+                        "children": [
+                            {
+                                "name": "Other Bookmarks",
+                                "type": "folder",
+                                "children": [
+                                    {
+                                        "name": "GitHub - danistefanovic/build-your-own-x: \ud83e\udd13 Build your own (insert technology here)",
+                                        "type": "url",
+                                        "url": "https://github.com/danistefanovic/build-your-own-x#build-your-own-3d-renderer"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Synced Bookmarks",
+                                "type": "folder",
+                                "children": [
+                                    {
+                                        "name": "[HL] Sprint 56 - Hololabs - Scrum Board - Jira",
+                                        "type": "url",
+                                        "url": "https://fsimmersive.atlassian.net/jira/software/c/projects/PGS/boards/5"
+                                    },
+                                    {
+                                        "name": "RK Web App",
+                                        "type": "url",
+                                        "url": "https://drive.rkgaming.com/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
