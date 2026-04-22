@@ -170,17 +170,352 @@ def flatten_firefox(root_nodes, browser_name, profile_name):
         
     return unified
 
+def _count_bookmarks(node):
+    """Recursively count URL bookmarks in a node."""
+    if node["type"] == "url":
+        return 1
+    return sum(_count_bookmarks(c) for c in node.get("children", []))
+
+
 def generate_html(bookmarks):
-    """Generate Netscape Bookmark HTML string."""
+    """Generate a styled Netscape Bookmark HTML file."""
+    total = sum(_count_bookmarks(b) for b in bookmarks)
+    generated = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+    style = """
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --surface2: #22263a;
+    --border: #2e3354;
+    --accent: #7c6aff;
+    --accent2: #a78bfa;
+    --text: #e2e8f0;
+    --text-muted: #8892b0;
+    --link: #7dd3fc;
+    --link-hover: #38bdf8;
+    --folder-icon: #fbbf24;
+    --radius: 8px;
+    --font: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 14px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+  #app { max-width: 960px; margin: 0 auto; padding: 32px 24px 80px; }
+
+  /* Header */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+  }
+  .header-left h1 {
+    font-size: 26px;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--accent2), var(--link));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header-left p { color: var(--text-muted); font-size: 13px; margin-top: 4px; }
+  .stats {
+    display: flex;
+    gap: 12px;
+  }
+  .stat {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 8px 16px;
+    text-align: center;
+  }
+  .stat-value { font-size: 20px; font-weight: 700; color: var(--accent2); }
+  .stat-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+
+  /* Search */
+  .search-wrap { position: relative; margin-bottom: 24px; }
+  .search-wrap svg {
+    position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+    color: var(--text-muted); pointer-events: none;
+  }
+  #search {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 14px;
+    padding: 10px 12px 10px 40px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  #search:focus { border-color: var(--accent); }
+  #search::placeholder { color: var(--text-muted); }
+  #search-count { font-size: 12px; color: var(--text-muted); margin-top: 6px; min-height: 18px; }
+
+  /* Controls */
+  .controls { display: flex; gap: 8px; margin-bottom: 20px; }
+  .btn {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text-muted);
+    cursor: pointer;
+    font-family: var(--font);
+    font-size: 12px;
+    padding: 6px 14px;
+    transition: all 0.15s;
+  }
+  .btn:hover { border-color: var(--accent); color: var(--accent2); }
+
+  /* Bookmarks tree (Netscape-compatible structure) */
+  H1 { display: none; }
+  DL { list-style: none; padding-left: 0; }
+  #bookmark-tree { padding-left: 0; }
+  #bookmark-tree > DT > H3 {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    margin-bottom: 8px;
+    padding: 12px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+    transition: border-color 0.2s, background 0.2s;
+    user-select: none;
+  }
+  #bookmark-tree > DT > H3:hover { border-color: var(--accent); background: var(--surface2); }
+  #bookmark-tree > DT > H3::before { content: "▶"; font-size: 10px; color: var(--accent); transition: transform 0.2s; }
+  #bookmark-tree > DT.open > H3::before { transform: rotate(90deg); }
+  #bookmark-tree > DT > H3 .folder-icon { color: var(--folder-icon); font-size: 16px; }
+  #bookmark-tree > DT > H3 .badge {
+    margin-left: auto;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    font-size: 11px;
+    color: var(--text-muted);
+    padding: 1px 8px;
+    font-weight: 400;
+  }
+  #bookmark-tree > DT > DL {
+    display: none;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 var(--radius) var(--radius);
+    margin-bottom: 8px;
+    padding: 8px 0;
+  }
+  #bookmark-tree > DT.open > DL { display: block; }
+
+  /* Nested folders */
+  DL DL { padding-left: 0; }
+  DL DT > H3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 16px 7px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-muted);
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.15s, color 0.15s;
+  }
+  DL DT > H3:hover { background: var(--surface2); color: var(--text); }
+  DL DT > H3::before { content: "▶"; font-size: 9px; color: var(--border); transition: transform 0.2s; flex-shrink: 0; }
+  DL DT.open > H3::before { transform: rotate(90deg); color: var(--accent); }
+  DL DT > H3::after { content: "📁"; font-size: 13px; }
+  DL DT > DL { display: none; padding-left: 16px; border-left: 2px solid var(--border); margin-left: 28px; }
+  DL DT.open > DL { display: block; }
+
+  /* Links */
+  DL DT > A {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 16px 6px 20px;
+    color: var(--link);
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 0;
+    transition: background 0.15s, color 0.15s;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  DL DT > A:hover { background: var(--surface2); color: var(--link-hover); }
+  DL DT > A::before { content: "🔗"; font-size: 11px; flex-shrink: 0; opacity: 0.6; }
+
+  /* Hidden items during search */
+  DT.hidden { display: none !important; }
+
+  /* No results */
+  #no-results { display: none; text-align: center; padding: 48px; color: var(--text-muted); }
+  #no-results.visible { display: block; }
+</style>"""
+
+    script = """
+<script>
+(function() {
+  function setup() {
+    // Make top-level folders collapsible
+    var topDTs = document.querySelectorAll('#bookmark-tree > DT');
+    topDTs.forEach(function(dt) {
+      var h3 = dt.querySelector(':scope > H3');
+      var dl = dt.querySelector(':scope > DL');
+      if (!h3) return;
+
+      // Add count badge
+      var links = dl ? dl.querySelectorAll('A').length : 0;
+      if (links > 0) {
+        var badge = document.createElement('span');
+        badge.className = 'badge';
+        badge.textContent = links;
+        h3.appendChild(badge);
+      }
+
+      h3.addEventListener('click', function() {
+        dt.classList.toggle('open');
+      });
+    });
+
+    // Make nested folders collapsible
+    var nestedDTs = document.querySelectorAll('#bookmark-tree DL DT');
+    nestedDTs.forEach(function(dt) {
+      var h3 = dt.querySelector(':scope > H3');
+      if (!h3) return;
+      h3.addEventListener('click', function(e) {
+        e.stopPropagation();
+        dt.classList.toggle('open');
+      });
+    });
+
+    // Expand all / Collapse all
+    document.getElementById('btn-expand').addEventListener('click', function() {
+      document.querySelectorAll('#bookmark-tree DT').forEach(function(dt) {
+        if (dt.querySelector(':scope > H3')) dt.classList.add('open');
+      });
+    });
+    document.getElementById('btn-collapse').addEventListener('click', function() {
+      document.querySelectorAll('#bookmark-tree DT').forEach(function(dt) {
+        dt.classList.remove('open');
+      });
+    });
+
+    // Search
+    var searchInput = document.getElementById('search');
+    var countEl = document.getElementById('search-count');
+    var noResults = document.getElementById('no-results');
+
+    searchInput.addEventListener('input', function() {
+      var q = this.value.trim().toLowerCase();
+      if (!q) {
+        document.querySelectorAll('#bookmark-tree DT').forEach(function(dt) {
+          dt.classList.remove('hidden');
+        });
+        countEl.textContent = '';
+        noResults.classList.remove('visible');
+        return;
+      }
+
+      var allLinkDTs = document.querySelectorAll('#bookmark-tree DT:has(> A)');
+      var matched = 0;
+      allLinkDTs.forEach(function(dt) {
+        var a = dt.querySelector(':scope > A');
+        var text = (a.textContent + ' ' + a.href).toLowerCase();
+        if (text.includes(q)) {
+          dt.classList.remove('hidden');
+          matched++;
+          // Ensure ancestors are visible and open
+          var parent = dt.parentElement;
+          while (parent && parent.id !== 'bookmark-tree') {
+            if (parent.tagName === 'DT') {
+              parent.classList.remove('hidden');
+              parent.classList.add('open');
+            } else if (parent.tagName === 'DL') {
+              // also open its parent DT
+            }
+            parent = parent.parentElement;
+          }
+        } else {
+          dt.classList.add('hidden');
+        }
+      });
+
+      // Hide folder DTs that have no visible children
+      var folderDTs = document.querySelectorAll('#bookmark-tree DT:has(> H3)');
+      folderDTs.forEach(function(dt) {
+        var visibleChildren = dt.querySelectorAll('DT:not(.hidden) > A');
+        if (visibleChildren.length === 0) {
+          dt.classList.add('hidden');
+        } else {
+          dt.classList.remove('hidden');
+          dt.classList.add('open');
+        }
+      });
+
+      countEl.textContent = matched + ' bookmark' + (matched !== 1 ? 's' : '') + ' matched';
+      noResults.classList.toggle('visible', matched === 0);
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setup);
+  } else {
+    setup();
+  }
+})();
+</script>"""
+
     lines = [
         '<!DOCTYPE NETSCAPE-Bookmark-file-1>',
-        '<!-- This is an automatically generated file.',
-        '     It will be read and overwritten.',
-        '     DO NOT EDIT! -->',
+        '<!-- This is an automatically generated file. DO NOT EDIT! -->',
         '<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">',
         '<TITLE>Bookmarks</TITLE>',
+        style,
+        '<body>',
+        '<div id="app">',
+        '  <div class="header">',
+        '    <div class="header-left">',
+        '      <h1>Bookmarks</h1>',
+        f'     <p>Exported {generated}</p>',
+        '    </div>',
+        '    <div class="stats">',
+        f'      <div class="stat"><div class="stat-value">{total}</div><div class="stat-label">Bookmarks</div></div>',
+        f'      <div class="stat"><div class="stat-value">{len(bookmarks)}</div><div class="stat-label">Sources</div></div>',
+        '    </div>',
+        '  </div>',
+        '  <div class="search-wrap">',
+        '    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>',
+        '    <input id="search" type="text" placeholder="Search bookmarks..." autocomplete="off">',
+        '  </div>',
+        '  <div id="search-count"></div>',
+        '  <div class="controls">',
+        '    <button class="btn" id="btn-expand">Expand All</button>',
+        '    <button class="btn" id="btn-collapse">Collapse All</button>',
+        '  </div>',
+        '  <div id="no-results">No bookmarks matched your search.</div>',
         '<H1>Bookmarks</H1>',
-        '<DL><p>'
+        '<DL id="bookmark-tree"><p>',
     ]
 
     def add_node(node, indent):
@@ -192,12 +527,17 @@ def generate_html(bookmarks):
                 add_node(child, indent + 1)
             lines.append(f'{space}</DL><p>')
         else:
-            lines.append(f'{space}<DT><A HREF="{node["url"]}">{node["name"]}</A>')
+            url = node.get("url") or ""
+            name = node.get("name") or url
+            lines.append(f'{space}<DT><A HREF="{url}">{name}</A>')
 
     for root in bookmarks:
         add_node(root, 1)
 
     lines.append('</DL><p>')
+    lines.append('</div>')
+    lines.append(script)
+    lines.append('</body>')
     return "\n".join(lines)
 
 def main():
