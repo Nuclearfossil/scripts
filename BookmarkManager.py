@@ -102,8 +102,8 @@ def get_firefox_bookmarks(profile_path):
             if parent_id in bookmarks_by_id:
                 bookmarks_by_id[parent_id]["children"].append(node)
             else:
-                # Top level folders (usually Toolbar, Menu, Unsorted)
-                if node["name"] in ["Bookmarks Toolbar", "Bookmarks Menu", "Other Bookmarks"]:
+                # Include root-level folders; exclude "tags" (causes URL duplicates)
+                if node["type"] == "folder" and node["name"] != "tags":
                     root_nodes.append(node)
         
         conn.close()
