@@ -46,3 +46,12 @@ Quickly checks the version of PowerShell running in the current session.
 ```powershell
 .\PowershellVersion.ps1
 ```
+
+### 🗑️ Recursive Directory Remove (`rmd.ps1`)
+Prompts for confirmation, then deletes a folder, all files in it, and all subdirectories in it.
+
+**Usage:**
+
+```powershell
+rmd .\path\to\folder
+```
