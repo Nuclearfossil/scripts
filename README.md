@@ -47,6 +47,22 @@ Quickly checks the version of PowerShell running in the current session.
 .\PowershellVersion.ps1
 ```
 
+### PowerShell Updater (`Update-PowerShell.ps1`)
+Checks the latest stable PowerShell release and updates PowerShell with `winget` when a newer version is available.
+
+**Usage:**
+
+```powershell
+# Check and update if needed
+.\Update-PowerShell.ps1
+
+# Check only
+.\Update-PowerShell.ps1 -CheckOnly
+
+# Force winget to run even if the version check says PowerShell is current
+.\Update-PowerShell.ps1 -Force
+```
+
 ### 🗑️ Recursive Directory Remove (`rmd.ps1`)
 Prompts for confirmation, then deletes a folder, all files in it, and all subdirectories in it.
 
